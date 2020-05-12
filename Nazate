@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>Nazate.shop</title>
+        <link rel='stylesheet' href='na.css'>
+        <link rel='stylesheet' href='n.css'>
+        
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  
+ 
+        
+
+        <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+        <!-- Chrome, Firefox OS and Opera -->
+        <meta content='#eeeeee' name='theme-color'/>
+        <!-- Windows Phone -->
+
+  <meta http-equiv="robots" content="all">
+  <meta http-equiv="robots" content="follow">
+  <meta http-equiv="robots" content="index">
+  <meta http-equiv="pragma" content="cache">
+  <meta http-equiv="windows-target" content="_blank">
+  <meta http-equiv="windows-target" content="_top">
+  <meta content='#NazateShop ' property='og:title'/>
+  <meta name="author" content="Makwani Etongo Luc, Congolais, né le 29 septembre 1998 à Kinshasa. Photographe, Designer, Blogueur, Webmaster, Informaticien de l'ISTA et Concepteur">
+  <meta name="copyright" content="NazateShop copyrights  2020   &copy  Nazate Play  Tous droits réservés.">
+  <meta name="description" content="Nos services et Produits pour tous. NazateShop: Toujours plus proche de vous et en tout moment. NazateShop site de vente : Habits, chaussures, Accessoires femme et homme et appareils électroniques et électroménagers  ">
+  <meta name="expires" content="never">
+  <meta name="generator" content="Visual Studio Code">
+  <meta name="keywords" content="Nazate, NazatePlay, Nazate Play, NazateShop, Nazate Shop, Nakabod243, @nazate, @nazateplay, @nazateprod, nazateprod, Nazate Prod, Luc Makwani, LucMakwani, Nos services et Produits pour tous,
+  NazateShop: Toujours plus proche de vous et en tout moment, NazateShop site de vente,Habits, chaussures, Accessoires femme, et, homme et appareils électroniques, et, électroménagers, reparation, culture,
+  show, spetacle, musique, music, body, couture, event, evenement, évenement, Chansons, lyrics, beats, sons, divertissement, achat, vente, commission, RDC, Congo, Africa, République Démocratique du Congo, Democratic Republic of Congo, meilleur achat, achat, 
+  accessoire, accessorie, portable, bluetooth, power bank, haut parleur bluetooth, speakers, oreillette, bas prix, pour tous, nouveauté, made in Congo,
+  made in Africa, made in DRC, official site, site officiel, peinture, photographie, vidéographie,video, world, international ,  Les Gauffres et Galettes,Les Chausures (Hommes et Femmes),Les Habits (Hommes et Femmes),Les Accessoires (Hommes et Femmes), Accessoires électroniques, Les Cartes sims (tous les réseaux),La Peinture,La Couture,Le Nettoyage,La Sérigraphie,La Conception d'affiches,La Prise de vue et le Montage de vidéos,L'installation d'antennes paraboliques,La Photographie et le traitement des photos,La Réparation des appareil électroniques et électroménagers,La Mise en place des chauffeurs pour vos déplacements dans vos véhicules
+  Peinture, Couture, Nettoyage, Sérigraphie, Conception d'affiches, Prise et montage de vidéos, Installation d'antennes paraboliques, Photographie et traitement des photos, Réparation des appareils életroniques et électroménagers,Mise en place des chauffeurs pour vous conduire avec votre voiture">
+  <meta name="rating" content="general">
+  <meta name="rev" content="lucmakwani@gmail.com">
+  <meta name="suject" content="NazateShop site de vente : Habits, chaussures, Accessoires femme et homme et appareils électroniques et électroménagers ">
+  <meta name="robots" content="all">
+  <meta content='#Nazate est disponible sur les réseaux sociaux, la photographie et la vente des articles...! Contact WhatsApp: +243 821326386' property='og:description'/>
+
+
+<style>
+    @media(orientation: landscape){  
+    body {display:grid;
+        grid-template-areas: 
+        "ndaku ndaku ndaku"
+        "head head head"
+        "encart corps menu"
+        "pied pied pied";
+        grid-template-columns: 10% 85% 5 1fr;
+        grid-template-rows: auto;
+        grid-gap: 30px; 
+    }
+    }
+@media(orientation: portrait){
+    body {
+        display:grid;
+      grid: "head"
+            "ndaku"
+            "menu" 
+            "encart" 
+            "corps" 
+            "pied";
+        
+        grid-template-columns: auto;
+    }
+}
+nav3{grid-area:ndaku;}
+header{grid-area:head;}
+nav{grid-area:menu;}
+aside{grid-area:encart ;}
+footer{grid-area:pied;}
+section{grid-area:corps;}
+header,nav,aside,nav3,section,footer{
+    border:padding:1px;
+    }
+
+
+   header2{
+    animation-play-state: running;
+   position:fixed;
+    background-color: black;
+    text-align: defiled;
+    text-decoration-color: white;
+    background-attachment: fixed;
+    color: white;
+    margin: 2% 0 0 0;
+    
+}
+
+header3{
+    animation-play-state: running;
+   position:fixed;
+    background-color: black;
+    text-align: defiled;
+    text-decoration-color: white;
+    background-attachment: fixed;
+border: solid;
+    color: white;
+    border: padding:1%;
+    margin: 0 0 0 0;
+     font-size: 25PX;
+}
+body{
+      font-family: Georgia, 'Times New Roman', Times, serif; 
+ background-attachment: fixed;
+
+   }
+:required { background-color:  red; }
+nazate{
+   border: 1px solid;
+   
+}
+kin{
+   border: 1px solid;
+}
+header{
+   
+    background-attachment: fixed;
+    position: fixed;
+    background-color:  transparent;
+    margin: 0% 0 0 4%;
+    background-position: fixed;
+width:100%;
+    high: 2%;
+    text-align: left;
+    position: fixed
+    border: none;
+    text-decoration: white;
+    text-color: red;
+}
+h1{
+    margin:1px;
+}
+
+section{
+    margin:0 0 0 0;
+    high: 45%;
+      background-attachment: fixed;
+   width: 100%
+}
+
+aside{
+    margin:0 0 0 0;
+     high: 25%;    
+      width: 100%;
+      background-attachment: fixed;
+
+}
+
+nav{ 
+    width:100%;
+     
+    high: 11%;
+    margin: 0% 0 0 0;
+    text-align: right;
+    position: fixed;
+background-attachment: fixed;
+
+    background-color:  black;
+}
+
+nav3{ 
+    width:60%;
+    high : 3%;
+    margin: 0% 0% 12% 15%;
+    text-align: none;
+    position: fixed;
+font-family: Georgia, 'Times New Roman', Times, serif; 
+ background-attachment: fixed;
+
+      font-size: 12px;
+    background-color:  black;
+}
+
+
+nav4{ 
+    font-size: 12px;   
+      width:60%;
+    high: 3px;
+    margin: 0% 30% 0% 17%;
+    text-align: center;
+    position: fixed;
+color:white;
+      background-attachment: fixed;
+
+    background-color:  none;
+}
+    
+footer{
+    background-color: white;
+    
+    text-decoration-line: none;
+    high:20%;
+    width:100%;
+    text-decoration-color: black;
+    margin:0% 0%
+        0% 0%;
+        background-attachment: fixed;
+
+    color:black;
+
+
+    font-size: 20px;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  high:20%;
+  margin:0% 0% 0% 0%;
+  
+}
+
+#titre{
+   
+   font-size: 15PX;
+ background-color: rgb(255, 255, 255);
+font-style: italic; 
+    color: rgb(4, 4, 7);
+  text-decoration: black;  
+    high:100%; 
+    width:100%;
+    margin:0 0 
+    0 0;
+ 
+    background-attachment: fixed;
+}
+
+title{
+    
+    text-align: justify;
+text-decoration: none;
+font-weight: bold;
+    }
+    h2{text-align: none;
+text-decoration: underline;
+font-weight: bold;
+
+
+}
+
+
+body {
+ margin:0;
+    
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+ height: 100%;
+ width: 100%;
+ position: fixed;
+ z-index: 1;
+ top: 1;
+ left: 0;
+ background-color:rgba(0,0,10,0.9) ;
+  overflow-y: hidden;
+ transition: 0.3s;
+    
+}
+
+
+   
+               
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.overlay a {
+  padding: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ff008c;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 20px;
+    display: listitem;
+}
+
+
+1{
+    width: 150px;
+    display: b lock;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pied
+{
+
+    background-color: none;
+    border: 1% solid;
+    text-decoration-line: none;
+    height:20%;
+    width:100%;
+    text-decoration-color: white;
+    margin:0% 0%
+        0% 0%;
+        background-attachment: fixed;
+color: black;
+image-orientation: from-image;
+}
+
+
+
+nav1 ul{
+    list-style-type: square;
+    background-color :rgb(8, 4, 4);
+    margin:0% 20% 0% 0%;
+    padding-left: 0px;
+text-align: center;
+
+}
+nav1 li{
+    font-size: 15px;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    height:5px;
+    margin:0% 0% 0% 0%;
+    display:inline-table;
+    border-left: solid 5px rgb(255, 255, 255);
+}
+
+button{
+    line-height:1px;
+    text-align: right;
+}
+nav1 li a{
+    text-decoration: palevioletred ; 
+    color:rgb(255, 255, 255);
+    margin:0%;
+   
+    line-height:15px;
+
+
+}
+th{
+    border: solid 1px;
+    background: rgb(201, 199, 192);
+}
+
+p9{ 
+    border: solid 1px;
+    background: rgb(255, 200, 0);
+}
+
+
+
+td{
+ text-decoration: 5%;
+    border: solid 1px;
+    background: rgb(21, 197, 109);
+}
+
+
+table{
+                 
+  width:2%;
+  
+                    
+    border-collapse: collapse;
+    }
+    
+
+nav1 li:hover{
+    background-color:rgb(255,252,34);
+    
+}
+
+nav2{
+    font-size: 14px;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  height:10%;
+  margin:1% 0% 0% 0%;
+  display:inline-table;
+    list-style-type: square;
+  background-color :black;
+  margin:0% 0% 0% 0%;
+  padding: none;
+text-align: justify;
+    background-attachement:fixed;
+    text-decoration: palevioletred ; 
+  
+    color:white;
+  margin:0%;
+  line-height:13px;
+}
+
+nav3{
+      text-style-type: square;
+      text-align: center;
+    color:pink;
+      
+}
+
+nav2 ul{
+  list-style-type: square;
+  background-color:black;
+    color:white;
+  margin:1%;
+  border-color: none;
+      border: 1px solid;
+text-align: center;
+  padding-left: 0;
+}
+   
+nav2 li{
+      text-align: center;
+      border-color: red;
+      
+border-collapse:collapse;
+  font-size: 13px;
+  width: -100%;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  height:25px;
+  margin:0% 0% 0% 0%;
+   padding-left: 5px;
+      
+  display:inline-table;
+  
+  
+  
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    
+}
+
+button{
+  line-height:1px;
+  text-align: right;
+}
+nav2 li a{
+  text-decoration: palevioletred ; 
+  
+  margin:0%;
+ background-color:black;
+    color:pink;
+  line-height:5px;
+
+
+}
+
+nav2 li:hover{
+  background-color:black;
+    color:white;
+  
+}
+
+a{
+    color: auto;
+    
+    text-decoration: none;
+}
+
+
+
+h5{
+    color:auto;
+    text-align: center;
+    }
+h4
+{
+   background-color: black;
+      color:auto;
+text-align: center; 
+}
+
+
+
+
+   
+   	
+    
+</style>
+        
+        
+        
+        
+    </head>
+    <body>
+    
+        
+       <nav>
+               
+ 
+ 
+        
+                                            
+    
+    
+                    <div class="column">
+  <img class="demo cursor"
+  src="logo.jpg" style="width:20%" style="high:15%"
+  >
+                       </div>     
+   
+ 
+     
+                       
+</nav> 
+         <nav3>
+           
+              <marquee position="fixed" high="5%" width="100%" scrollamount="2" scrolldelay="5">
+   <!-- L'objet parcourt 2px chaque 10ms -->🤗Bienvenue🤗 bon parcours et bonne commande sur nazate.shop🛒 vous recherchez 🕵️ l'un de nos services ou produits❓
+                  ou désirez-vous afficher l'un de vos services ou produits❓ nous sommes contents😊 que vous nous avez choisis. rejoignez-nous maintenant, veuillez 
+ nous contacter📞  sur WhatsApp : +243 858184794, e-mail : nazateplay@gmail.com</marquee>
+      
+           
+     </nav3>   
+            
+        
+        <header>  
+            
+        
+       <div id="myNav" class="overlay">
+                      <a href="javascript:void(0)"
+                      class="closebtn"
+                      onclick="closeNav()">❌</a>
+                      <div class="overlay-content">
+                    
+                                   <a href="accueil.html">Accueil 📃</a>
+                   
+                                   <a href="contacts.html">Contacts 📞</a>
+                                   <a href="Services.html">Services 💼</a>
+                                           
+                                   <a href="Produits.html">Produits 🛍️</a>  
+                                     <a href="propos.html">A propos 🗣️</a>
+                                  
+                                  
+                                    </div>
+                                  </div>  
+                     
+  
+                    <span style="color: pink" style="font-size:100%;cursor:
+                    pointer"
+                    
+                style="margin:0 0 0 0;"   onclick="openNav()">  <h1>&#9776<h1></span>
+                    
+                    <script>
+                    function openNav() {
+                     document.getElementById("myNav")
+                     .style.height="100%";
+                    }
+                    
+                    function closeNav() {
+                     document.getElementById("myNav")
+                     .style.height = "0%";
+                    }
+
+
+                    </script>
+               
+                              
+                   
+                      
+                      </header>
+            <h3>   <nav4>📳+243819218367
+              </nav4>
+           </h3>
+            <aside >
+                  
+
+        hello
+                
+                                      
+        </aside>
+      
+   <section> 
+     bjr
+       
+       <div class="column">
+                                              <img class="1" src="bluetooth.JPG"style="width:100%"
+                                              onclick="openModal();currentSlide(1)"
+                                              class="hover-shadow cursor">
+                                              </div>
+                             
+                                      <div class="column">
+               
+                                          <img class="1" src="IMG_2055.jpg"style="width:100%"
+                                      onclick="openModal();currentSlide(2)"
+                                      class="hover-shadow cursor">
+                                      </div>
+                                          
+                                       
+                                       <img class="1" src="IMG_2055.jpg"style="width:100%"
+                                      onclick="openModal();currentSlide(2)"
+                                      class="hover-shadow cursor">
+                                      </div>
+                                      
+                                          <img class="1"
+                                              src="IMG_2055.jpg"style="width:100%"
+                                      onclick="openModal();currentSlide(2)"
+                                      class="hover-shadow cursor">
+                                      </div>
+                                      
+                                      <div class="column">
+                   
+
+    
+
+       
+       
+                                          
+                                      <div class="column">
+                   
+
+    
+
+       
+         
+                                      
+                                      <div class="column">
+                   
+
+    
+       
+       
+        </section>  
+        
+        
+        <footer>
+           
+      
+
+            <header2>
+      
+                        </header2>
+       
+        <br>
+       
+        
+              
+        <nav2>
+          <ul>
+
+              <h5>Cliquez sur👉⚪👈 pour nous suivre 🕵️ : </h5> 
+    
+           <h4> <li><a href="https://www.facebook.com/nakabod243">⚪Facebook</a></li>
+              <li><a href="https://www.twitter.com/nostalgienazate">⚪Twitter</a></li>
+              <li><a href="https://www.instagram.com/nazateshop">⚪Instagram</a></li>
+              <li><a href="https://www.likee.com/nazate">⚪Likee</a></li>
+              <li><a href="https://www.tiktok.com/nazateplaytv">⚪TikTok</a></li> 
+              <li><a href="https://nazateprod.blogspot.com">⚪Blog #Nazate</a></li>
+           </br>     📞: +243 858184794,+243 828720639</br></br>📨: nazateplay@gmail.com
+             </h4><h5><marquee position="fixed" high="5%" width="100%" scrollamount="1" scrolldelay="10">
+   <!-- L'objet parcourt 2px chaque 10ms -->Nazate.shop 🛒
+                 🗣️
+Nos partenaires :
+  Enock Mabanza,Felly Ngandu, Luc Makwani, Bénie Wida, Josiane Etongo, Gloria Isongu, Herline Dikizeyiko, Blaise KATUMBA, Freddy Katasi, Charonne Mumvudi, Jospin B.Communication, Ruphine Dihoya, Noël Mazieta, Merveil Bombe, Jonathan Ndala, Béni Musungu, Brusny Mabanza.
+profiter de nos services. Contacter nous sur WhatsApp : +243 858184794, e-mail : nazateplay@gmail.com</marquee></br>
+      
+         </br>   <a href="https://wa.me/243858184794" target="_blank"><img class="demo cursor"
+                    
+          src="Nostalgie picture.jpg" style="width:12%" style="text-align: center" style="high:15%" alt=Nazate />    
+             <a href="https://nazateprod.blogspot.com" target="_blank"><img class="demo cursor"
+                    
+          src="nazate-logo.jpg" style="width:12%" style="text-align: center" style="high:15%" alt=Nazate />    
+                             
+            <a href="https://nazate.hubside.fr" target="_blank"><img class="demo cursor"
+                    
+          src="logo.jpg" style="width:12%" style="text-align: center" style="high:15%" alt=Nazate /> 
+      </h5> </ul>
+                                            
+                                       
+                                          
+                                          
+                      
+           
+
+<h4>      
+            
+            
+          
+                
+     &copyNazate ®Nostalgie Picture   </a></br></br>    ©️NazateShop copyrights  2020 </br></br> Tous droits réservés.</h4>
+               
+             
+                 </h4>                
+             
+      </nav2>
+                 
+       
+                
+            
+                
+                  
+    
+       
+                </div>
+            </footer>
+     
+        
+        
+    </body>
+</html>
